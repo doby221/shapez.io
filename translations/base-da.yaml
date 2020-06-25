@@ -30,155 +30,154 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io er et spil der halder om at bygge fabrikker for at automere at lave og combinere af figure. aflver de mere og mere komplekse figure for at gøre fremskridt i spilet for at kunne købe opgraderinger for at din fabrik ajbejter hurtiger.
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
+        fordi der er brug for mere så bliver du nød til at gøre din fabrik støre for at producere nok - glem ikke omkring recurserne du bliver nød til udvide i [b]infinite map[/b]!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
+        figure kan blive kedlige så snart skal du blande farver og male firure med det - combiner red, grøn og blå farve ressource for at prodosere forskelige farver og male figure med det for at producere nok.
 
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned!
-
-
+        det her spil har 18 levels (vilke vil holde dig i beskæftighed i timevis!) men jeg tilføjer hele tiden nye ting - der er en masse ting planlagt
+        
         [b]Standalone Advantages[/b]
 
         [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
+            [*] markør
+            [*] uendlig spil du kan gemme
+            [*] mørke Mode
+            [*] flere indstillinger
+            [*] lad mig udvikle shapez.io mere ❤️
+            [*] mere indhold i fremtiden!
         [/list]
 
         [b]Planned features & Community suggestions[/b]
 
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        det her spil er en åbenkilde - alle og en hver kan hjælpe! anden det lytter jeg også [b]meget[/b] til forslag! jeg vil prøve at læse alle forslag og bruger så meget at det som jeg kan.
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] historie mode hvor bygninger koster firure
+            [*] flere levels & bygninger (den købte version)
+            [*] forskelige kort og moske forhændringer
+            [*] indstilinger for kort (besteme hvor mnage og størelsen på områder, seed/frø og mere)
+            [*] flere forskelige figure
+            [*] så den køre bedre på din computer (selvom spilet allerrede er ret godt!)
+            [*] farve blind mode
+            [*] og meget mere!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        hver sikker på at du tjekker min trello for det fulle vejkort! https://trello.com/b/ISQncpJP/shapezio
 
 global:
     loading: Loading
-    error: Error
+    error: fejl
 
     # How big numbers are rendered, e.g. "10,000"
     thousandsDivider: ","
 
     # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
-        thousands: k
+        thousands: t
         millions: M
         billions: B
         trillions: T
 
     # Shown for infinitely big numbers
-    infinite: inf
+    infinite: uendlig
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: et sekund siden
+        xSecondsAgo: <x> sekunder siden
+        oneMinuteAgo: et minut siden
+        xMinutesAgo: <x> minutes siden
+        oneHourAgo: en time siden
+        xHoursAgo: <x> timer siden
+        oneDayAgo: en dag siden
+        xDaysAgo: <x> dage siden
 
         # Short formats for times, e.g. '5h 23m'
-        secondsShort: <seconds>s
-        minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>m
+        secondsShort: <s>s
+        minutesAndSecondsShort: <m>m <s>s
+        hoursAndMinutesShort: <t>h <m>m
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minuter
 
     keys:
         tab: TAB
         control: CTRL
         alt: ALT
         escape: ESC
-        shift: SHIFT
-        space: SPACE
+        shift: SKIFT
+        space: MELLEMRUM
 
 demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
     title: Demo Version
     intro: >-
-        Get the standalone to unlock all features!
+        dowload programet for at få alle tingene
 
 mainMenu:
-    play: Play
-    continue: Continue
-    newGame: New Game
+    play: spil
+    continue: spil vidre
+    newGame: nyt spil
     changelog: Changelog
     subreddit: Reddit
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
-    madeBy: Made by <author-link>
+    importSavegame: flyt ind
+    openSourceHint: det her spil er en åben kilde!
+    discordLink: officielle Discord Server
+    helpTranslate: hjæp med at oversætte!
+    madeBy: lavet af <author-link>
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        undskyld, men det her spil er kendt for at køre langsomt på din browser dowload spilet for at få den fulde oplevelse.
 
     savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevelUnknown: ukent Level
 
     contests:
         contest_01_03062020:
             title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            desc: vind <strong>$25</strong> for den sjeste base!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                for at give noget tilbage til dig tænkte jeg at det vile vere sejt at lave ugelige konkorencer!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>denne uges tema:</strong> byg den sejeste base!
                 <br><br>
                 Here's the deal:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
+                    <li>giv et screenshot a din base til <strong>contest@shapez.io</strong></li>
+                    <li>Bonus poing vis du deler det på soialle medier!</li>
+                    <li>jeg vil vælge 5 screenshots og vise dem til <strong>discord</strong> så andre kan stemme.</li>
+                    <li>vinderen få <strong>$25</strong> (Paypal, Amazon Gift Card, hvad du helst vil)</li>
                     <li>Deadline: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                jeg ser frem til at se dig og dine crationer!
 
-        showInfo: View
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
+        showInfo: vis
+        contestOver: dene konkurence er slut - deltag i discorden for at få notifikationer om de nye konkurencer!
 
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
-        restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        delete: slet
+        cancel: stop
+        later: senere
+        restart: genstart
+        reset: genstart
+        getStandalone: dowload programet
+        deleteGame: jeg ved hvad jeg gør
+        viewUpdate: Vis update
+        showUpgrades: vis upgraderinger
+        showKeybindings: vis taste bindinger
 
     importSavegameError:
-        title: Import Error
+        title: gemte spil fejl
         text: >-
             Failed to import your savegame:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: gente spil tilføjet
         text: >-
             Your savegame has been successfully imported.
 
